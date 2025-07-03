@@ -1,4 +1,5 @@
 import { useState } from "react";
+import dayjs from "dayjs";
 
 export const Chat = () => {
   const [chatMessages, setChatMessages] = useState([]);
@@ -32,7 +33,7 @@ export const Chat = () => {
               <div className="flex gap-x-2 items-baseline">
                 <div className="text-white font-semibold">Goat</div>
                 <div className="text-gray-500 text-[14px]">
-                  Today at 10:30pm
+                  Today at {dayjs().format("hh:mm A")}
                 </div>
               </div>
               <p className="text-gray-300">{chatMessage.message}</p>

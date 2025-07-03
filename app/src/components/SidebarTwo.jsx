@@ -8,7 +8,7 @@ export const SidebarTwo = () => {
       </div>
       <div className="pl-3 mt-2">
         <p className="text-[#8e9297] font-bold mb-2">TEXT CHANNELS</p>
-        <p className="mb-2 text-[#b9bbbe] cursor-pointer"># general</p>
+        <p className="mb-2 text-[#b9bbbe] cursor-pointer underline"># general</p>
         <p className="text-[#b9bbbe] cursor-pointer"># announcements</p>
       </div>
       <div className="mt-3 pl-3">
